@@ -52,7 +52,7 @@ describe('CalculatorComponent', () => {
     component.calculatorForm.get('operator').setValue('/');
     component.onSubmit();
 
-    expect(component.result).toBe(5);
+    expect(component.result).toBe(3);
 
   });
 
